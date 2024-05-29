@@ -78,11 +78,11 @@ const handleClick = () => {
     if (meshClick) { // Verifica si meshClick no es null
       switch (meshClick.name) {
         case "cubo#1":
-          return console.log("click en cubo 1");
+          return console.log("click en cubo #1");
         case "cubo#2":
-          return console.log("click en cubo 2");
+          return console.log("click en cubo #2");
         case "cubo#3":
-          return console.log("click en cubo 3");
+          return console.log("click en cubo #3");
         default:
           return null;
       }
